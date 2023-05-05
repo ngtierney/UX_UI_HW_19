@@ -1,0 +1,299 @@
+
+body{
+    background-color: #F6F1E2;
+    font-family: "aktiv-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100%;
+}
+
+#mainnav {
+    margin: 50;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+    font-size: 25pt;
+}
+
+.headlogo{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+a.projecttab:visited {
+    color: #2F292A;
+    text-decoration: none;
+  }
+
+a.projecttab:link {
+    color: #2F292A;
+    text-decoration: none;
+  }
+  
+  a.abouttab:link {
+    color: #2F292A;
+    text-decoration: none;
+  }
+  
+  a.abouttab:visited {
+    color: #2F292A;
+    text-decoration: none;
+  }
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.introcontent{
+    margin-left: 100px;
+    font-size: 28px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.self{
+    margin-left: 200px;
+    border-radius: 15px;
+}
+
+h1{
+    margin-left: 70px;
+}
+
+#RecentWork{
+    font-size: 70px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F6F1E2;
+    padding-left: 0px;
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom right,#88a3a9, #f6f1e2);
+
+}
+
+button{
+    background-color: #F6F1E2;
+    border: #2f292a;
+    color: #2F292A;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "aktiv-grotesk", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin: 4px 2px;
+    border-radius: 20px;
+    margin-left: 725px;
+    margin-bottom: 75px;
+    
+}
+
+h2{
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+.row {
+    display: flex;
+    font-size: 27px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    align-content: center;
+    padding-bottom: 70px;
+    text-align: center;
+    color: #2f292a;
+  }
+
+  footer{
+    border-top: solid thick #10349C;
+  }
+  .social {
+    flex: 33.33%;
+    padding: 5px;
+    padding-right: 90px;
+    padding-bottom: 70px;
+    display: inline-block;
+    color: #10349C;
+    font-size: 20px;
+    font-family: "adrianna", sans-serif;
+    font-style: bold;
+
+  }
+
+  .column2 { 
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #10349C;
+  }
+
+  .column3 {
+    display: inline-block;
+    padding-left: 300px;
+    font-size: 30px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #10349C;
+  }
+
+
+ .marquee {
+  padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    display: infinite;
+    color: #10349C;  
+ }
+.aboutme{
+  flex: 33%;
+  display: inline-block;
+  width: 40%;
+  margin-right: 0px;
+  padding-left: 200px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: #2f292a;
+  font-family: "adrianna", sans-serif;
+  font-size: 20px;
+  padding-inline: 20;
+}
+
+.hi {
+  font-size: 60px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 700;
+  color: #2f292a;
+  padding-top: 0;
+}
+
+.photoself{
+  flex: 33%;
+  display: inline-block;
+  height: fit-content;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+#myskills {
+  font-size: 60px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 700;
+  color: #F6F1E2;
+  background-color: #88a3a9;
+}
+h4{
+  text-align: center;
+  padding-top: 50px;
+}
+.skillchart {
+  padding-left: 470px;
+  padding-bottom: 50px;
+}
+
+h5 {
+  font-size: 60px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 700;
+  margin: 20px;
+  padding-left: 200px;
+}
+
+h6 {
+  font-size: 40px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.tagline {
+  font-size: 25px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 600;
+}
+.appintro{
+  font-size: 20px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 500;
+}
+.weventuredetails{
+  display: inline-block;
+  padding-left: 200px;
+  margin: 20px;
+  padding-top: 0px;
+}
+
+.appimage {
+  display: inline-block;
+  flex: auto;
+  margin: 150px;
+}
+
+.chaindivider {
+  padding-left: 500px;
+}
+
+.Process {
+  display: inline-block;
+  margin: 30px;
+  padding-left: 300px;
+}
+
+.designby {
+  font-size: 20px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 500;
+}
+
+.researchby {
+  font-size: 20px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 500;
+}
+
+.Timeline {
+  font-size: 20px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 500;
+}
+
+.software {
+  font-size: 20px;
+  font-family: "adrianna", sans-serif;
+  font-weight: 500;
+}
+
+.reachedthefooter{
+    font-size: 30px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    color:#10349C;
+    padding-left: 10px;
+}
+
+.stillcurious {
+    font-size: 40px;
+    font-family: "adrianna", sans-serif;
+    font-weight: 700;
+    color: #10349C;
+}
